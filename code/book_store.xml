@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bookstore>
+  <!-- Gute Rezepte -->
+  <book category="cooking">
+    <title lang="en">Everyday Italian</title>
+    <author>Giada De Laurentiis</author>
+    <year>2005</year>
+    <price>30.00</price>
+  </book>
+  <!-- Fiction -->
+  <book category="fiction">
+    <title lang="en">The Great Gatsby</title>
+    <author>F. Scott Fitzgerald</author>
+    <year>1925</year>
+    <price>15.99</price>
+  </book>
+  <book category="fiction">
+    <title lang="en">To Kill a Mockingbird</title>
+    <author>Harper Lee</author>
+    <year>1960</year>
+    <price>12.50</price>
+  </book>
+  <book category="fiction">
+    <title lang="en">1984</title>
+    <author>George Orwell</author>
+    <year>1949</year>
+    <price>9.99</price>
+  </book>
+  <book category="fiction">
+    <title lang="en">The Catcher in the Rye</title>
+    <author>J.D. Salinger</author>
+    <year>1951</year>
+    <price>11.25</price>
+  </book>
+  <!-- Mystery/Thriller -->
+  <book category="mystery">
+    <title lang="en">The Da Vinci Code</title>
+    <author>Dan Brown</author>
+    <year>2003</year>
+    <price>14.75</price>
+  </book>
+  <book category="mystery">
+    <title lang="en">Gone Girl</title>
+    <author>Gillian Flynn</author>
+    <year>2012</year>
+    <price>16.50</price>
+  </book>
+  <book category="thriller">
+    <title lang="en">The Girl with the Dragon Tattoo</title>
+    <author>Stieg Larsson</author>
+    <year>2005</year>
+    <price>18.00</price>
+  </book>
+  <!-- Science Fiction/Fantasy -->
+  <book category="science_fiction">
+    <title lang="en">Dune</title>
+    <author>Frank Herbert</author>
+    <year>1965</year>
+    <price>20.50</price>
+  </book>
+  <book category="fantasy">
+    <title lang="en">The Hobbit</title>
+    <author>J.R.R. Tolkien</author>
+    <year>1937</year>
+    <price>22.99</price>
+  </book>
+  <!-- Non-Fiction -->
+  <book category="non_fiction">
+    <title lang="en">Sapiens: A Brief History of Humankind</title>
+    <author>Yuval Noah Harari</author>
+    <year>2014</year>
+    <price>26.00</price>
+  </book>
+  <book category="non_fiction">
+    <title lang="en">Educated</title>
+    <author>Tara Westover</author>
+    <year>2018</year>
+    <price>28.75</price>
+  </book>
+  <!-- Biography/Memoir -->
+  <book category="biography">
+    <title lang="en">The Diary of a Young Girl</title>
+    <author>Anne Frank</author>
+    <year>1947</year>
+    <price>15.99</price>
+  </book>
+  <book category="memoir">
+    <title lang="en">Eat, Pray, Love</title>
+    <author>Elizabeth Gilbert</author>
+    <year>2006</year>
+    <price>14.25</price>
+  </book>
+  <!-- Historical Fiction -->
+  <book category="historical_fiction">
+    <title lang="en">The Book Thief</title>
+    <author>Markus Zusak</author>
+    <year>2005</year>
+    <price>17.50</price>
+  </book>
+  <book category="historical_fiction">
+    <title lang="en">All the Light We Cannot See</title>
+    <author>Anthony Doerr</author>
+    <year>2014</year>
+    <price>19.99</price>
+  </book>
+  <!-- Self-Help/Motivational -->
+  <book category="self_help">
+    <title lang="en">The 7 Habits of Highly Effective People</title>
+    <author>Stephen R. Covey</author>
+    <year>1989</year>
+    <price>21.50</price>
+  </book>
+  <book category="motivational">
+    <title lang="en">You Are a Badass</title>
+    <author>Jen Sincero</author>
+    <year>2013</year>
+    <price>13.75</price>
+  </book>
+  <!-- Classics -->
+  <book category="classics">
+    <title lang="en">Pride and Prejudice</title>
+    <author>Jane Austen</author>
+    <year>1813</year>
+    <price>10.99</price>
+  </book>
+  <book category="classics">
+    <title lang="en">Moby-Dick</title>
+    <author>Herman Melville</author>
+    <year>1851</year>
+    <price>23.00</price>
+  </book>
+  <!-- Science/Popular Science -->
+  <book category="science">
+    <title lang="en">A Brief History of Time</title>
+    <author>Stephen Hawking</author>
+    <year>1988</year>
+    <price>25.50</price>
+  </book>
+  <book category="popular_science">
+    <title lang="en">The Selfish Gene</title>
+    <author>Richard Dawkins</author>
+    <year>1976</year>
+    <price>27.25</price>
+  </book>
+  <!-- Poetry -->
+  <book category="poetry">
+    <title lang="en">Leaves of Grass</title>
+    <author>Walt Whitman</author>
+    <year>1855</year>
+    <price>12.99</price>
+  </book>
+  <book category="poetry">
+    <title lang="en">The Waste Land</title>
+    <author>T.S. Eliot</author>
+    <year>1922</year>
+    <price>14.50</price>
+  </book>
+  <!-- Business/Economics -->
+  <book category="business">
+    <title lang="en">Thinking, Fast and Slow</title>
+    <author>Daniel Kahneman</author>
+    <year>2011</year>
+    <price>29.99</price>
+  </book>
+  <book category="economics">
+    <title lang="en">Freakonomics</title>
+    <author>Steven D. Levitt</author>
+    <year>2005</year>
+    <price>18.75</price>
+  </book>
+  <!-- Travel -->
+  <book category="travel">
+    <title lang="en">Into the Wild</title>
+    <author>Jon Krakauer</author>
+    <year>1996</year>
+    <price>16.99</price>
+  </book>
+  <book category="travel">
+    <title lang="en">The Alchemist</title>
+    <author>Paulo Coelho</author>
+    <year>1988</year>
+    <price>20.25</price>
+  </book>
+  <!-- Science Fiction/Fantasy -->
+  <book category="science_fiction">
+    <title lang="en">Neuromancer</title>
+    <author>William Gibson</author>
+    <year>1984</year>
+    <price>22.50</price>
+  </book>
+  <book category="fantasy">
+    <title lang="en">The Name of the Wind</title>
+    <author>Patrick Rothfuss</author>
+    <year>2007</year>
+    <price>24.99</price>
+  </book>
+  <!-- Non-Fiction -->
+  <book category="non_fiction">
+    <title lang="en">The Immortal Life of Henrietta Lacks</title>
+    <author>Rebecca Skloot</author>
+    <year>2010</year>
+    <price>26.75</price>
+  </book>
+  <book category="non_fiction">
+    <title lang="en">Becoming</title>
+    <author>Michelle Obama</author>
+    <year>2018</year>
+    <price>28.50</price>
+  </book>
+  <!-- Biography/Memoir -->
+  <book category="biography">
+    <title lang="en">Steve Jobs</title>
+    <author>Walter Isaacson</author>
+    <year>2011</year>
+    <price>15.99</price>
+  </book>
+  <book category="memoir">
+    <title lang="en">The Glass Castle</title>
+    <author>Jeannette Walls</author>
+    <year>2005</year>
+    <price>14.25</price>
+  </book>
+  <!-- Historical Fiction -->
+  <book category="historical_fiction">
+    <title lang="en">The Nightingale</title>
+    <author>Kristin Hannah</author>
+    <year>2015</year>
+    <price>17.99</price>
+  </book>
+  <book category="historical_fiction">
+    <title lang="en">The Pillars of the Earth</title>
+    <author>Ken Follett</author>
+    <year>1989</year>
+    <price>19.50</price>
+  </book>
+  <!-- Self-Help/Motivational -->
+  <book category="self_help">
+    <title lang="en">Atomic Habits</title>
+    <author>James Clear</author>
+    <year>2018</year>
+    <price>21.75</price>
+  </book>
+  <book category="motivational">
+    <title lang="en">The Power of Now</title>
+    <author>Eckhart Tolle</author>
+    <year>1997</year>
+    <price>13.50</price>
+  </book>
+  <!-- Classics -->
+  <book category="classics">
+    <title lang="en">One Hundred Years of Solitude</title>
+    <author>Gabriel García Márquez</author>
+    <year>1967</year>
+    <price>10.50</price>
+  </book>
+  <book category="classics">
+    <title lang="en">Jane Eyre</title>
+    <author>Charlotte Brontë</author>
+    <year>1847</year>
+    <price>23.50</price>
+  </book>
+  <!-- Science/Popular Science -->
+  <book category="science">
+    <title lang="en">Cosmos</title>
+    <author>Carl Sagan</author>
+    <year>1980</year>
+    <price>25.99</price>
+  </book>
+  <book category="popular_science">
+    <title lang="en">A Short History of Nearly Everything</title>
+    <author>Bill Bryson</author>
+    <year>2003</year>
+    <price>27.50</price>
+  </book>
+  <!-- Poetry -->
+  <book category="poetry">
+    <title lang="en">The Raven</title>
+    <author>Edgar Allan Poe</author>
+    <year>1845</year>
+    <price>12.25</price>
+  </book>
+  <book category="poetry">
+    <title lang="en">Milk and Honey</title>
+    <author>Rupi Kaur</author>
+    <year>2014</year>
+    <price>14.99</price>
+  </book>
+  <!-- Business/Economics -->
+  <book category="business">
+    <title lang="en">The Lean Startup</title>
+    <author>Eric Ries</author>
+    <year>2011</year>
+    <price>29.50</price>
+  </book>
+  <book category="economics">
+    <title lang="en">Capital in the Twenty-First Century</title>
+    <author>Thomas Piketty</author>
+    <year>2013</year>
+    <price>18.25</price>
+  </book>
+  <!-- Travel -->
+  <book category="travel">
+    <title lang="en">Wild</title>
+    <author>Cheryl Strayed</author>
+    <year>2012</year>
+    <price>16.25</price>
+  </book>
+  <book category="travel">
+    <title lang="en">In a Sunburned Country</title>
+    <author>Bill Bryson</author>
+    <year>2000</year>
+    <price>20.99</price>
+  </book>
+  <!-- Science Fiction/Fantasy -->
+  <book category="science_fiction">
+    <title lang="en">Snow Crash</title>
+    <author>Neal Stephenson</author>
+    <year>1992</year>
+    <price>22.25</price>
+  </book>
+  <book category="fantasy">
+    <title lang="en">The Lies of Locke Lamora</title>
+    <author>Scott Lynch</author>
+    <year>2006</year>
+    <price>24.50</price>
+  </book>
+  <!-- Non-Fiction -->
+  <book category="non_fiction">
+    <title lang="en">The Wright Brothers</title>
+    <author>David McCullough</author>
+    <year>2015</year>
+    <price>26.99</price>
+  </book>
+</bookstore>

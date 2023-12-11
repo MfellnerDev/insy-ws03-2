@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookstore</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Bookstore</h2>
+
+<div id="bookTable"></div>
+
+<script>
+  const xmlFile = 'book_store.xml';
+  
+  fetch(xmlFile)
+    .then(response => response.text())
+    .then(xmlString => {
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(xmlString, 'application/xml');
+
+      const books = xmlDoc.querySelectorAll('book');
+
+      const table = document.createElement('table');
+      const headerRow = table.createTHead().insertRow(0);
+
+      ['Title', 'Author', 'Year', 'Price'].forEach(headerText => {
+        const th = document.createElement('th');
+        th.appendChild(document.createTextNode(headerText));
+        headerRow.appendChild(th);
+      });
+
+      const tbody = table.createTBody();
+
+      books.forEach(book => {
+        const row = tbody.insertRow();
+        ['title', 'author', 'year', 'price'].forEach(key => {
+          const cell = row.insertCell();
+          cell.appendChild(document.createTextNode(book.querySelector(key).textContent));
+        });
+      });
+
+      document.getElementById('bookTable').appendChild(table);
+    })
+    .catch(error => console.error('Error loading XML file:', error));
+</script>
+
+</body>
+</html>
